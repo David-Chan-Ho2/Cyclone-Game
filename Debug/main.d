@@ -9,9 +9,17 @@ main.obj: /Applications/ti/ccstheia131/ccs/ccs_base/msp430/include/in430.h
 main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdbool.h
 main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_ti_config.h
 main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/linkage.h
-main.obj: ../main.h
-main.obj: ../led.h
-main.obj: ../button.h
+main.obj: /Users/empireamusement/workspace_ccstheia/lab3/inc/main.h
+main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdint.h
+main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_stdint40.h
+main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/stdint.h
+main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/cdefs.h
+main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/_types.h
+main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/machine/_types.h
+main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/machine/_stdint.h
+main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/_stdint.h
+main.obj: /Users/empireamusement/workspace_ccstheia/lab3/inc/led.h
+main.obj: /Users/empireamusement/workspace_ccstheia/lab3/GrLib/grlib/button.h
 
 ../main.c:
 
@@ -31,9 +39,25 @@ main.obj: ../button.h
 
 /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/linkage.h:
 
-../main.h:
+/Users/empireamusement/workspace_ccstheia/lab3/inc/main.h:
 
-../led.h:
+/Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdint.h:
 
-../button.h:
+/Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_stdint40.h:
+
+/Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/stdint.h:
+
+/Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/cdefs.h:
+
+/Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/_types.h:
+
+/Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/machine/_types.h:
+
+/Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/machine/_stdint.h:
+
+/Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/_stdint.h:
+
+/Users/empireamusement/workspace_ccstheia/lab3/inc/led.h:
+
+/Users/empireamusement/workspace_ccstheia/lab3/GrLib/grlib/button.h:
 

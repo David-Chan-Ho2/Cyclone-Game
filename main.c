@@ -1,12 +1,3 @@
-/**
-    Name: David Ho
-    Date: 6/15/25
-    Assignment: Lab 3
-    Youtube: https://youtube.com/shorts/2q8-cLer_CM
-    This Program:
-        A LED will go from left to right. The user must press the button when
-   the center LED is illuminated.
-*/
 #include "intrinsics.h"
 #include <msp430.h>
 #include <stdbool.h>
