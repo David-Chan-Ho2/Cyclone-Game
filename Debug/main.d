@@ -19,7 +19,7 @@ main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.L
 main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/machine/_stdint.h
 main.obj: /Applications/ti/ccstheia131/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/_stdint.h
 main.obj: /Users/empireamusement/workspace_ccstheia/lab3/inc/led.h
-main.obj: /Users/empireamusement/workspace_ccstheia/lab3/GrLib/grlib/button.h
+main.obj: /Users/empireamusement/workspace_ccstheia/lab3/inc/button.h
 
 ../main.c:
 
@@ -59,5 +59,5 @@ main.obj: /Users/empireamusement/workspace_ccstheia/lab3/GrLib/grlib/button.h
 
 /Users/empireamusement/workspace_ccstheia/lab3/inc/led.h:
 
-/Users/empireamusement/workspace_ccstheia/lab3/GrLib/grlib/button.h:
+/Users/empireamusement/workspace_ccstheia/lab3/inc/button.h:
 
