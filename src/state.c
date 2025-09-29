@@ -26,11 +26,12 @@ static inline state_t winCheck(int currentLED) {
 state_t (*state_table[MAX_STATES])() = {
     runIdleState, runRightState, runLeftState, runLostState, runWonState};
 
-state_t runState(state_t current) {
-  if (current < MAX_STATES) {
-    return state_table[current]();
+state_t runState(state_t currentState) {
+  if (currentState < MAX_STATES) {
+    return state_table[currentState]();
   }
-  return IDLE; // fallback safety
+
+  return IDLE;
 }
 
 state_t runIdleState() {
@@ -44,9 +45,13 @@ state_t runIdleState() {
   return IDLE;
 }
 
-state_t runRightState() { return runSweepState(LED_FIRST, LED_LAST, 1, LEFT); }
+state_t runRightState() {
+  return runSweepState(LED_FIRST, LED_LAST, 1, LEFT); //
+}
 
-state_t runLeftState() { return runSweepState(LED_LAST, LED_FIRST, -1, RIGHT); }
+state_t runLeftState() {
+  return runSweepState(LED_LAST, LED_FIRST, -1, RIGHT); //
+}
 
 state_t runWonState() {
   setLED(LED_MASK_EVEN, false);

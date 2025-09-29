@@ -6,7 +6,9 @@ void initLEDGPIO() {
   LED_DIR_REG |= LED_MASK_ALL;
 }
 
-void updateLED(int LED) { LED_OUT_REG |= (1 << LED); }
+void updateLED(int LED) {
+  LED_OUT_REG |= (1 << LED); //
+}
 
 void setLED(int LED, bool enable) {
   if (enable) {
@@ -16,4 +18,6 @@ void setLED(int LED, bool enable) {
   }
 }
 
-void toggleLED(int LED) { LED_OUT_REG ^= LED; }
+void toggleLED(int LED) {
+  LED_OUT_REG ^= LED; //
+}
